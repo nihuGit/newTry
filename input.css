@@ -39,7 +39,7 @@
     font-family: 'Inter', serif;
     font-optical-sizing: auto;
   }
-  .content__paragraph,
+  
   .content__highlights-text {
     @apply font-normal not-italic text-lg text-neutral-subtext;
     font-family: 'Inter', serif;
@@ -899,9 +899,7 @@
         .header__section {
           @apply mb-12 mt-3;
         }
-        .content__section {
-          @apply space-y-6;
-        }
+       
         .content__header-title {
           @apply mb-6; 
         }
