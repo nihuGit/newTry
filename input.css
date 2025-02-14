@@ -976,6 +976,37 @@
       .webinar-card__button {
         @apply bg-cyan-400 hover:bg-cyan-500 text-purple-900 font-semibold py-3 px-8 rounded-lg inline-flex items-center;
       }
+
+      /* new add card start */
+      .ad-card {
+        @apply relative w-full my-8 p-10 lg:p-12 bg-neutral-BigCardViolet rounded-3xl shadow flex flex-col space-y-6 lg:space-y-8;
+      }
+      
+      /* Element: Headline */
+      .ad-card__headline {
+        @apply text-primary-light leading-snug;
+      }
+      
+      /* Element: Subtext */
+      .ad-card__subtext {
+        @apply text-primary-light text-sm md:text-base leading-relaxed;
+      }
+      
+      /* Element: CTA Container */
+      .ad-card__cta {
+        @apply mt-4;
+      }
+      
+      /* Element: Button */
+      .ad-card__button {
+        @apply bg-cyan-400 hover:bg-cyan-500 text-xs md:text-lg lg:text-lg text-purple-900 font-semibold py-3 px-4 sm:px-8 rounded-lg inline-flex items-center;
+      }
+      
+      /* Element: Sponsored Label */
+      .ad-card__sponsor {
+        @apply absolute bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-neutral-placeholder uppercase;
+      }
+      /* new add card end */
   
       /* paragraphs */
       .content-container {

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Ad Section</title>
+  <!-- Tailwind CSS via CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  
+/>
+  <link rel="stylesheet" href="nav-styles.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+      .ad-card {
+        @apply relative w-full my-8 p-10 lg:p-12 bg-neutral-BigCardViolet rounded-3xl shadow flex flex-col space-y-6 lg:space-y-8;
+      }
+      
+      .ad-card__headline {
+        @apply text-primary-light leading-snug;
+      }
+      
+      .ad-card__subtext {
+        @apply text-primary-light text-sm md:text-base leading-relaxed;
+      }
+      
+      .ad-card__cta {
+        @apply mt-4;
+      }
+      
+      .ad-card__button {
+        @apply bg-cyan-400 hover:bg-cyan-500 text-xs md:text-lg lg:text-lg text-purple-900 font-semibold py-3 px-4 sm:px-8 rounded-lg inline-flex items-center;
+      }
+      
+      .ad-card__sponsor {
+        @apply absolute bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-neutral-placeholder uppercase;
+      }
+      
+  
+    </style>
+</head>
+<body >
+
+  <!-- Main Ad Container -->
+  <div class="ad-card">
+    <!-- Headline -->
+    <h3 class="ad-card__headline">
+      Scale Your Site Leads and Traffic by 121% with India's Leading SEO Agency
+    </h3>
+    
+    <!-- Subtext -->
+    <p class="ad-card__subtext">
+      Improve your site's visibility, attract high intent customers, and generate qualified leads with customized data driven SEO strategies.
+    </p>
+    
+    <!-- CTA Button -->
+    <div class="ad-card__cta">
+      <a href="#" class="ad-card__button">
+        Register Now →
+      </a>
+    </div>
+    
+    <!-- Sponsored Label -->
+    <p class="ad-card__sponsor">
+      Sponsored
+    </p>
+  </div>
+
+</body>
+</html>

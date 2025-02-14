@@ -9,7 +9,7 @@ module.exports = {
           base: "#16A34A", // Main green color used for headings and buttons
           hover: "#15803D", // Darker green for hover states
           dark: "#000", // black color
-          light: "#fffff", // black color
+          light: "#ffff", // white color
           main: "#000", // white color 
         },
         accent: {
